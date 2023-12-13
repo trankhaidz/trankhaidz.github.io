@@ -5,6 +5,23 @@
     top: 90%;
   }
 
+  .profile-img {
+    height: 100px;
+    width: 100px;
+    background-color: #ddd;
+    border-radius: 50%;
+    margin: auto;
+    border: 10px solid var(--background-color);
+  }
+
+  .header-name > h1 {
+    font-size: 20px;
+  }
+
+  .header-name > p {
+    font-size: 14px;
+  }
+
   .left {
     width: 100%;
   }
@@ -12,6 +29,11 @@
   .right {
     width: 100%;
   }
+
+  .p3 {
+    font-size: 13px;
+  }
+
   .p1 {
     font-size: 10px;
   }
@@ -22,6 +44,10 @@
 
   .box-1 .p1 {
     font-size: 10px;
+  }
+
+  .box-1 .heading > p {
+    font-size: 14px;
   }
 
   .name-div h1 {
@@ -77,6 +103,10 @@
 
   footer {
     bottom: -130px;
+  }
+
+  footer p {
+    font-size: 12px;
   }
 }
 
